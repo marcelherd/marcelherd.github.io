@@ -43,8 +43,12 @@ params:
 
   # Comments settings
   comments:
-    enabled: false
-    provider: disqus
+    enabled: true
+    provider: utterances
+    utterances:
+      repo: marcelherd/marcelherd.github.io
+      issueTerm: pathname
+      label: utteranc.es
 
 menu:
   header:
