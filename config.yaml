@@ -1,0 +1,72 @@
+baseurl: "https://marcelherd.com"
+languageCode: "en-us"
+title: "Marcel Herd"
+theme: "hugo-tania"
+paginate: 5
+
+disqusShortname: https-hugo-tania-netlify-app
+
+params:
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji:
+
+  # Logo will show before the blog title on site navbar.
+  titleLogo: circle/favicon-32x32.png
+
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes: true
+
+  siteName: "Marcel Herd"
+  siteDesc: "Marcel Herd personal webpage and blog"
+  author: "Marcel Herd"
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow: 10
+
+  # Show your socail information with icon on index bio with `_index.md` content.
+  socialOptions:
+    dev-to:
+    email: me@marcelherd.com
+    facebook:
+    github: https://github.com/marcelherd
+    instagram:
+    linkedin:
+    medium:
+    stack-overflow: https://stackoverflow.com/users/4409162/marcel-herd
+    steam:
+    telegram:
+    twitter: https://twitter.com/marcelherd
+    twitch:
+    whatsapp:
+
+  # Comments settings
+  comments:
+    enabled: false
+    provider: disqus
+
+menu:
+  header:
+    - name: Articles
+      url: "/articles/"
+    - name: Contact
+      url: "/contact/"
+    - name: Résumé
+      url: "/resume/"
+  footer:
+    - name: RSS
+      url: "/index.xml"
+    - name: Contact
+      url: "/contact/"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
