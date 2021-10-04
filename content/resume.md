@@ -6,7 +6,7 @@ layout: "static"
 
 ## Personal Information
 
-{{< resume-personal image="profile.jpg" imageAlt="Profile Image" name="Marcel Herd" location="Rheinland-Pfalz, Germany" >}}
+{{< resume-personal image="profile.jpg" imageAlt="Profile Image" name="Marcel Herd" location="Rheinland-Pfalz, Germany" dog="Maja, Labrador" >}}
 
 ## Professional Experience
 
