@@ -10,11 +10,11 @@ layout: "static"
 
 ## Professional Experience
 
-| Period                | Occupation                                                    |
-| --------------------- | ------------------------------------------------------------- |
-| since April 2020      | **IT Technical Consultant**, BASF Digital Services GmbH.      |
-| Oct. 2018 - Mar. 2019 | **Internship**, _Frontend Developer_, SAP SE.                 |
-| Aug. 2009 - Sep. 2009 | **Internship**, _IT Specialist_, BASF Business Services GmbH. |
+| Period                | Occupation                                                                                                                                                            |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| since April 2020      | **IT Technical Consultant**, _Identity & Access Management_, BASF Digital Services GmbH.<br>Development, Automation, Consulting & Troubleshooting for SAML and OAuth. |
+| Oct. 2018 - Mar. 2019 | **Internship**, _Frontend Developer_, SAP SE.<br>Development of an indoor navigation system using JavaScript and SAP UI5.                                             |
+| Aug. 2009 - Sep. 2009 | **Internship**, _IT Specialist_, BASF Business Services GmbH.<br>Basic knowledge about Linux, Networking, HTML.                                                       |
 
 ## Education
 
