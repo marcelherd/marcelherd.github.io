@@ -1,0 +1,124 @@
+.pill {
+  background: var(--light-background);
+  padding: 0.5rem 1rem;
+  border-radius: 500px;
+  margin-right: 0.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  display: inline-block;
+  min-width: 65px;
+  text-align: center;
+
+  &:hover {
+    background: var(--light-background-hover);
+    cursor: pointer;
+  }
+}
+
+.pill-type-tool {
+  color: #fff;
+  background: #03970b;
+
+  &:hover {
+    background: lighten($color: #03970b, $amount: 10);
+  }
+}
+
+.pill-type-technology {
+  color: var(--h1-color);
+  background: #ffc949;
+
+  &:hover {
+    background: lighten($color: #d99902, $amount: 10);
+  }
+}
+
+.pill-type-language {
+  color: #fff;
+  background: #1852d9;
+
+  &:hover {
+    background: lighten($color: #1852d9, $amount: 10);
+  }
+}
+
+.pill-type-framework {
+  color: #fff;
+  background: #d92e73;
+
+  &:hover {
+    background: lighten($color: #d92e73, $amount: 10);
+  }
+}
+
+.profile {
+  display: flex;
+
+  .profile__image {
+    display: none;
+    flex: 0 0 300px;
+    height: 300px;
+    width: auto;
+  }
+
+  @media screen and (min-width: 700px) {
+    .profile__image {
+      display: block;
+    }
+  }
+
+  .profile__personal-information {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+
+    table,
+    tr,
+    td {
+      border: 0;
+    }
+
+    tr {
+      background: var(--background);
+    }
+
+    td:first-child {
+      text-align: right;
+      width: 1px;
+      white-space: nowrap;
+      font-weight: bold;
+      padding-right: 0.75rem;
+    }
+
+    td {
+      padding: 0.25rem;
+    }
+  }
+}
+
+.pill.sm {
+  font-size: 0.8rem;
+}
+
+#education + table th:first-child,
+#education + table td:first-child,
+#professional-experience + table th:first-child,
+#professional-experience + table td:first-child {
+  text-align: right;
+  white-space: nowrap;
+  min-width: 150px;
+}
+
+#education + table th:not(:first-child),
+#education + table td:not(:first-child),
+#professional-experience + table th:not(:first-child),
+#professional-experience + table td:not(:first-child) {
+  white-space: normal;
+}
+
+#highly-proficient,
+#proficient,
+#experienced {
+  margin-top: 0;
+}

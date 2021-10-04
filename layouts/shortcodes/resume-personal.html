@@ -1,0 +1,23 @@
+<div class="profile">
+  <img loading="lazy" 
+    {{ with .Get "image" }} src="/{{ . }}" {{ end }}
+    {{ with .Get "imageAlt" }} alt="{{ . }}" {{ end }} 
+    class="profile__image" />
+
+  <div class="profile__personal-information">
+    <table>
+      <tr>
+        <td>Name</td>
+        <td>{{ .Get "name" }}</td>
+      </tr>
+      <tr>
+        <td>Date of Birth</td>
+        <td>{{ .Get "birthdate" }}</td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>{{ .Get "location" }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

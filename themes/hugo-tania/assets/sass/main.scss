@@ -6,7 +6,6 @@
 @import "base/headings";
 @import "base/links";
 
-
 @import "components/navbar";
 @import "components/bio";
 @import "components/posts";
@@ -25,5 +24,9 @@
 @import "components/projects";
 @import "components/terms";
 @import "components/pagination";
+
+// Customized
+@import "components/form";
+@import "components/resume";
 
 @import "base/dark";
