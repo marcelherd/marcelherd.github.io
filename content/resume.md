@@ -16,16 +16,6 @@ layout: "static"
 | Oct. 2018 - Mar. 2019 | **Internship**, _Frontend Developer_, SAP SE.<br>Development of an indoor navigation system using JavaScript and SAP UI5.                                             |
 | Aug. 2009 - Sep. 2009 | **Internship**, _IT Specialist_, BASF Business Services GmbH.<br>Basic knowledge about Linux, Networking and HTML.                                                    |
 
-## Education
-
-| Period      | Occupation                                                                                                        |
-| ----------- | ----------------------------------------------------------------------------------------------------------------- |
-| 2015 - 2020 | **B. Sc. in Computer Science**, _Mannheim University of Applied Sciences_.                                        |
-| 2014 - 2015 | **Advanced Technical College Certificate** (Fachhochschulreife), _Berufsbildende Schule Technik 1_, Ludwigshafen. |
-| 2011 - 2014 | **Apprenticeship**, _Fachinformatiker für Anwendungsentwicklung_, BASF Business Services GmbH.                    |
-| 2005 - 2011 | **Secondary Education** (Mittlere Reife), _Friedrich-Schiller-Realschule Plus_, Frankenthal.                      |
-| 2001 - 2005 | **Primary School**, _Studernheim_.                                                                                |
-
 ## Skills
 
 {{< resume-skill "Language" "language sm" >}} {{< resume-skill "Technology" "technology sm" >}} {{< resume-skill "Framework" "framework sm" >}} {{< resume-skill "Tool" "tool sm" >}} {{< resume-skill "Application" " sm" >}}
